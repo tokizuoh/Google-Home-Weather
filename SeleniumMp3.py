@@ -6,7 +6,7 @@ import requests
 
 
 def Texr_Exchange_Mp3(message):
-    driver = webdriver.Chrome(executable_path = "C:\\Users\\btsitf\\prg\\GoogleHome_1\\chromedriver.exe")
+    driver = webdriver.Chrome(executable_path = "\\chromedriver.exe")
     driver.get("https://soundoftext.com/")
 
     elem_t = driver.find_element_by_class_name("field__textarea")   #element_text
