@@ -2,8 +2,6 @@ import TokyoWeather
 import SeleniumMp3
 import GoogleHome
 
-from time import sleep
-
 ### OpenWeatherMap ###
 message = TokyoWeather.Weather_API()
 print(message)
